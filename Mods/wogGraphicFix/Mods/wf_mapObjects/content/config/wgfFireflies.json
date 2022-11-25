@@ -1,0 +1,29 @@
+{
+	"wgfFireflies" : {
+		"name" : "Fireflies",
+		"handler": "static",	
+		"types" : {
+			"fireflies" : {
+				"rmg": {					
+//				"zoneLimit"	: 12,
+				"value"		: 100,
+				"rarity"	: 150
+				},
+				"templates" : {
+					"wfirefly" : { "animation" : "fireflies/wfirefly",
+					"mask" : ["VV","VV"], 
+                    "allowedTerrains": ["swamp"]
+					},
+					"wfirefly1" : { "animation" : "fireflies/wfirefly1",
+					"mask" : ["VVV","VVV"], 
+                    "allowedTerrains": ["swamp"]
+					}
+				}	
+			}					
+		}
+	}
+}	
+	
+
+
+	
